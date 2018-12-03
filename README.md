@@ -18,7 +18,7 @@ Once installation is done - open terminal (MAC OSX) or command prompt (for windo
 
 Above command should print out the version that you have installed.
 
-Take a pull from repository 'wdio-cucumber-BDD'
+Take a pull from repository 'WebdriverIO-Cucumber-BDD'
 
 Open a command prompt and go to folder location and run `npm install` to grab all dependencies.
 
