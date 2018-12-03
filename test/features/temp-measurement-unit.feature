@@ -1,4 +1,4 @@
-Feature:  Verify the current location functionality
+Feature:  Verify the temperature measurement units
     
     As a user when I toggle temperature button
     then I can see the temperature on page the with enable measurement unit.
