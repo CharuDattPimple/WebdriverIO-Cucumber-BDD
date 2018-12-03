@@ -1,7 +1,7 @@
 
 # WebdriverIO with Cucumber BDD
 
-This project consist of  webdriverIO  with Cucumber BDD framework. It generate Spec and JUNIT reports.This project is also integrated with CI tool Jenkins.
+This project consist of  webdriverIO  with Cucumber BDD framework. It generate Spec reports.This project is also integrated with CI tool Jenkins.
 
 # Installation
 
@@ -34,10 +34,14 @@ To execute the entire test suite in local development you need to hit the below 
 Spec reporter, will print detail report on console.
 
 
-# Jenkins Installation
-If Jenkins is not already set in your machine then follow the below steps
+# Jenkins Integration
 
-Download `https://jenkins.io/` & Install it in your system.
-Once Jenkins it is installed , one can access Jenkins from the link − `http://localhost:8080`
-Enter the password(location will be displayed once you hit above url) and install the plugins
-Create Admin user and start Jenkins
+hit the below url 
+`http://jenkins.autodevops.ga:8080/`
+
+and enter below creadntials ;
+username :jenkins
+password :Admin1431
+
+Click on open Blue Ocean and You can seet a pipeline with name `OpenWeatherMap`.
+click on Run Button and there you can see the integration with CI pipelines with two stages install and test.
