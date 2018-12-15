@@ -3,8 +3,6 @@ import {
 } from 'cucumber';
 import citySearchPage from '../pageobjects/city-search.page';
 import homePage from '../pageobjects/home.page';
-var ip = require('ip');
-var where = require('node-where');
 
 defineSupportCode(function({
   Then
