@@ -34,10 +34,10 @@ exports.config = {
     capabilities: [
 
         {
-            browserName: 'chrome',
+            browserName: 'chrome'
             // platform: 'Windows 10',
             // version: '50.0',
-            maxInstances: '1',
+            // maxInstances: '1',
         },
 
     ],
@@ -51,7 +51,7 @@ exports.config = {
     // the wdio-sync package. If you still want to run your tests in an async way
     // e.g. using promises you can set the sync option to false.
     sync: true,
-    logLevel: 'silent', // Level of logging verbosity: silent | verbose | command | data | result | error
+    // logLevel: 'silent', // Level of logging verbosity: silent | verbose | command | data | result | error
     coloredLogs: true, // Enables colors for log output.
     screenshotPath: './test/reports/errorShots/', // Saves a screenshot to a given path if a command fails.
     //
@@ -62,9 +62,6 @@ exports.config = {
     connectionRetryTimeout: 90000, // Default timeout in milliseconds for request  if Selenium Grid doesn't send response
     connectionRetryCount: 3, // Default request retries count
 
-    params: {
-        downloadPath : './test/download'
-    },
 
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new

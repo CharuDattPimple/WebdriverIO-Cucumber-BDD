@@ -37,7 +37,7 @@ Spec reporter, will print detail report on console.
 # Jenkins Integration
 
 hit the below url 
-`http://jenkins.autodevops.ga:8080/`
+`https://jenkins.testops.ga/`
 
 and enter below creadntials ;
 username :jenkins
